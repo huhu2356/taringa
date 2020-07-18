@@ -1,0 +1,50 @@
+{
+  "name": "taringa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node ./src/app.js",
+    "test": "jest",
+    "lint": "eslint src/ --ignore-path .gitignore --ext .js",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huhu2356/taringa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huhu2356/taringa/issues"
+  },
+  "homepage": "https://github.com/huhu2356/taringa#readme",
+  "dependencies": {
+    "@google-cloud/logging-winston": "^3.0.6",
+    "@hapi/joi": "^17.1.1",
+    "@koa/cors": "^2.2.3",
+    "@koa/router": "^8.0.8",
+    "@rsksmart/rsk3": "^0.3.4",
+    "bip39": "^3.0.2",
+    "dotenv": "^8.2.0",
+    "ethereumjs-util": "^7.0.3",
+    "got": "^10.7.0",
+    "hdkey": "^2.0.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.10",
+    "query-string": "^6.13.1",
+    "uuid": "^8.1.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  }
+}
